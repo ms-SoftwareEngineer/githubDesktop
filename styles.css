@@ -1,0 +1,53 @@
+*,
+::before,
+::after{
+    box-sizing: border-box;
+}
+
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(
+        to top right,
+        gray,
+        black
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    border : 50px solid transparent;
+    border-image: url('https://static.vecteezy.com/system/resources/previews/007/022/854/original/vintage-floral-ornament-border-hand-drawn-decorative-element-illustration-of-gold-floral-frame-with-black-background-retro-design-template-for-page-decoration-cards-wedding-banner-free-vector.jpg')
+    20%
+    round;
+    padding: 28px;
+    background: linear-gradient(
+        to right,
+        gray,lightgrey
+    );
+    color: black;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 2px 2px black;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+
+p{
+    margin : auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
