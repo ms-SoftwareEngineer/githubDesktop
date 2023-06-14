@@ -11,18 +11,11 @@ html,body{
 }
 
 body{
-    background: linear-gradient(
-        to top right,
-        gray,
-        black
-    );
+    background-image: 
+    url('https://repository-images.githubusercontent.com/58559694/aeae5400-6102-11e9-980d-dc74185ed41d');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 header{
@@ -36,6 +29,8 @@ header{
         gray,lightgrey
     );
     color: black;
+    width: 50%;
+    margin :30px auto;
 }
 
 h1{
